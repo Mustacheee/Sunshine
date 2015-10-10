@@ -1,0 +1,22 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+	
+    <ListPreference
+        android:key="PREF_UNITS"
+        android:title="@string/pref_units"
+        android:entries="@array/pref_units_labels"
+        android:entryValues="@array/pref_units_values"
+        android:defaultValue="@string/pref_units_default_value"/>
+    
+    <EditTextPreference
+        android:key="POSTCODE"
+        android:title="@string/pref_postcode"
+        android:defaultValue="91945"/>
+
+    
+    <EditTextPreference
+        android:key="COUNT"
+        android:title="@string/pref_count"
+        android:defaultValue="7"
+        android:inputType="number"/>
+    
+</PreferenceScreen>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sunshine</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="pref_units">Units</string>
+    <string name="pref_units_default_value">imperial</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="pref_postcode">PostCode</string>
+    <string name="pref_count">Number of Days</string>
+    <string name="action_view_location">Location on Map</string>
+    <string name="action_color_activity">Select Color</string>
+
+    <string-array name="pref_units_labels">
+        <item>Imperial</item>
+        <item>Metric</item>
+    </string-array>
+    <string-array name="pref_units_values">
+        <item>imperial</item>
+        <item>metric</item>
+    </string-array>
+
+    <string name="title_activity_color">ColorActivity</string>
+    <string name="colorContentDesc">Color Activity Background</string>
+    <string name="title_activity_ledstart_page">LEDStartPage</string>
+    <string name="addButton">Add</string>
+    <string name="deleteButton">Delete</string>
+    <string name="createControllerColor">Pick Color</string>
+    <string name="createControllerSubmit">Submit</string>
+    <string name="createControllerClose">Close</string>
+    <string name="title_activity_leddetail">LEDDetailActivity</string>
+    <string name="title_activity_edit_controller">EditControllerActivity</string>
+
+</resources>
